@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+body {
+
+    font-family: "Truculenta", serif;
+    background-image: url('Table.avif');
+    background-size:cover;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+ 
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style:italic;
+}
+
+.inner-box{
+    margin-top:10%;
+    position: relative;
+    transform:translateY(-50%);
+}
+
+ 
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top:2px;
+}
